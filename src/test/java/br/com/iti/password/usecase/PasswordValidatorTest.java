@@ -62,4 +62,13 @@ class PasswordValidatorTest {
         String thirdInvalidPassword = "AbTp9!foa ";
         Assertions.assertThrows(SpacesBetweenPasswordException.class, () -> validator.execute(thirdInvalidPassword));
     }
+
+    @Test
+    public void testVariousInvalidScenarios() {
+        String[] invalidArray = {"", "aa", "ab", "AAAbbbCc", "AbTp9!foo", "AbTp9!foA", "AbTp9 fok"};
+
+        for (String item: invalidArray) {
+            Assertions.assertThrows(InvalidPasswordException.class, () -> validator.execute(item));
+        }
+    }
 }

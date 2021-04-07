@@ -1,0 +1,14 @@
+/home/ringaramo/iti/src/main/java/br/com/iti/password/usecase/RepeatedCharacterPasswordException.java
+/home/ringaramo/iti/src/main/java/br/com/iti/password/usecase/SpacesBetweenPasswordException.java
+/home/ringaramo/iti/src/main/java/br/com/iti/password/usecase/UncapitalizedCharacterPasswordException.java
+/home/ringaramo/iti/src/main/java/br/com/iti/password/usecase/CapitalizedCharacterPasswordException.java
+/home/ringaramo/iti/src/main/java/br/com/iti/password/usecase/PasswordLacksSpecialCharacterException.java
+/home/ringaramo/iti/src/main/java/br/com/iti/password/config/ErrorEntity.java
+/home/ringaramo/iti/src/main/java/br/com/iti/password/usecase/InsufficientCharactersPasswordException.java
+/home/ringaramo/iti/src/main/java/br/com/iti/password/usecase/NoNumericDigitPasswordException.java
+/home/ringaramo/iti/src/main/java/br/com/iti/password/usecase/PasswordValidator.java
+/home/ringaramo/iti/src/main/java/br/com/iti/ItiApplication.java
+/home/ringaramo/iti/src/main/java/br/com/iti/password/entrypoint/PasswordValidatorController.java
+/home/ringaramo/iti/src/main/java/br/com/iti/password/usecase/InvalidPasswordException.java
+/home/ringaramo/iti/src/main/java/br/com/iti/password/config/PasswordDomainControllerAdvice.java
+/home/ringaramo/iti/src/main/java/br/com/iti/password/entrypoint/ChangePasswordRequest.java
